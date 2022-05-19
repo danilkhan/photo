@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>photo</title>
 </head>
 <body>
     <header class="header">
@@ -54,7 +54,7 @@
                 <p>Фотографии стали неотъемлемой частью нашей жизни. Это теперь не просто памятные снимки в альбомах, ныне фото становиться способом понравиться окружающим, получить восхищение, заявить о себе всему миру.</p>
                 <p>Выбор правильной фотостудии занимает далеко не последнее место в получение фотографий. И мы с точностью заявляем, что нашей фотостудией вы останетесь довольны 
                 и еще не раз захотите возвращаться к нам. </p>
-                <button type="button">Получить консультацию</button>
+                <button type="button" class="btn">Получить консультацию</button>
             </div>
         </div>
     </header>
@@ -87,7 +87,7 @@
         </ul>
     </div>
     <div class="slider-loc">
-        <h3 class="slider-loc__title">Наши локации</h3>
+        <h3 class="slider-loc__title title">Наши локации</h3>
         <div class="slider-loc__items">
             <div class="slider-loc__cards">
                 <div class="slider-loc__list active"><img src="img/loc/1.jpg" alt=""></div>
@@ -107,15 +107,25 @@
                 </button>
             </div>
         </div>
-        <button type="button" class="slider-loc__btn">выбрать локацию</button>
+        <button type="button" class="slider-loc__btn btn">выбрать локацию</button>
         <div class="slider-loc__bg">
             <svg viewBox="0 0 1440 594" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" d="M-152.607 1.50327C400.278 290.856 485.562 -19.5136 1033.73 193.356C1123.29 228.136 1149.36 223.065 1195.17 213.809C1700.06 111.78 1473.29 449.746 1173.21 443.965C827.536 437.304 820.023 77.9304 259.941 314.1C-312.965 555.677 269.061 611.722 492.995 557.276C716.929 502.83 939.548 479.32 908.557 545.907C869.818 629.141 1447.6 588.258 1501.03 519.247" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 10"/>
             </svg>                
         </div>
+        <div class="slider-loc__bg-lp">
+            <svg viewBox="0 0 1024 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M-207.8 2.24259C256.452 234.489 323.072 -5.08799 782.319 167.758C857.355 195.999 878.986 192.432 916.978 185.896C1335.78 113.844 1151.79 372.84 901.937 364.135C614.131 354.108 602.824 75.2095 139.972 250.547C-333.478 429.9 151.748 481.563 337.37 442.474C522.991 403.385 707.953 388.277 683.094 439.498C652.021 503.523 1132.35 479.932 1175.85 427.147" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 10"/>
+            </svg>
+        </div>
+        <div class="slider-loc__bg-sm">
+            <svg viewBox="0 0 375 412" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M-131.861 1.72573C68.8943 201.167 158.847 -8.80632 370.186 138.742C404.717 162.85 417.294 159.562 439.446 153.553C683.633 87.3072 525.417 315.17 391.321 309.5C236.854 302.968 293.185 59.223 1.87182 216.111C-296.111 376.592 -43.4751 417.99 66.3557 382.374C176.187 346.758 280.285 332.113 255.274 377.087C224.009 433.305 490.841 408.949 526.354 362.462" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 10"/>
+            </svg>
+        </div>
     </div>
-    <div class="play">
-        <h3 class="play-title">Оформление фотостудии</h3>
+    <aside class="play">
+        <h3 class="play-title title">Оформление фотостудии</h3>
         <div class="play-items">
             <video poster="" class="play-items__video">
                 <source src="video/videoplayback.mp4" type="video/mp4">
@@ -126,9 +136,9 @@
                 </svg>
             </button>
         </div>
-    </div>
+    </aside>
     <section class="services container">
-        <h3 class="services-title">Виды услуг</h3>
+        <h3 class="services-title title">Виды услуг</h3>
         <div class="services-grid">
             <div class="services-love">
                 <img src="img/services/1.jpg" alt="#!">
@@ -177,7 +187,7 @@
         </div>
     </section>
     <section class="stages container">
-        <h3 class="stages-title">Этапы работ</h3>
+        <h3 class="stages-title title">Этапы работ</h3>
         <div class="stages-request stages-text">
             <h4>Заявка</h4>
             <p>Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
@@ -219,9 +229,9 @@
             </svg>
         </div>
     </section>
-    <section class="text">
+    <article class="text text-bg">
         <div class="text-box container">
-            <h3 class="text-title">Фотостудия для любых идейных фотоссесий</h3>
+            <h3 class="text-title title">Фотостудия для любых идейных фотоссесий</h3>
             <p class="text-text">
                 Воплотите мечту с нашей фотостудией и приобретите красивые, уникальные, качественные фотографии, выбрав один из наших залов. 
                 А их, -на секундочку, -аж семь штук. <br>
@@ -231,7 +241,86 @@
                 <span>• Фотоссесия Love Story</span>
                 <span>Мечтаете показать всему миру вашу историю создания любви или хранить снимки  в памятном альбоме... </span>
             </p>
-            <button type="button" class="text-btn">Подробнее</button>
+            <button type="button" class="text-btn icon-arr-bot">Подробнее</button>
+        </div>
+    </article>
+    <section class="cards container">
+        <h3 class="cards-title title">Стоимость фотосесии</h3>
+        <div class="cards-card card">
+            <div class="card__mini">
+                <div class="card__mini-header card-header">
+                    <p>MINI</p>
+                    <h4>2500 ₽</h4>
+                    <span>/ 1 локация</span>
+                </div>
+                <div class="card__mini-main card-main">
+                    <ul>
+                        <li class="icon-arr-check">Длительность — 30 минут</li>
+                        <li class="icon-arr-check">Исходники — До 100 штук</li>
+                        <li class="icon-arr-check">Ретушь — 4 фото</li>
+                        <li class="icon-arr-check">Аренда фотостудии — Бесплатно</li>
+                        <li class="icon-arr-check">Любой образ</li>
+                    </ul>
+                </div>
+                <div class="card__mini-footer card-footer">
+                    <h4 class="card-footer__title">Дополнительные услуги</h4>
+                    <div class="card-footer__services">
+                        <p>Помощь в позировании</p>
+                        <p>Визажист + 2000 ₽</p>
+                        <p>Дополнительная ретушь<br>фото — 1 шт. / 250 ₽</p>
+                    </div>
+                </div>
+                <button class="card__btn btn">Забронировать</button>
+            </div>
+            <div class="card__stand">
+                <div class="card__stand-header card-header">
+                    <p>STANDART</p>
+                    <h4>5000 ₽</h4>
+                    <span>/ 2 локации </span>
+                </div>
+                <div class="card__stand-main card-main">
+                    <ul>
+                        <li class="icon-arr-check">Длительность — 1 час 20 минут </li>
+                        <li class="icon-arr-check">Исходники — До 200 штук</li>
+                        <li class="icon-arr-check">Ретушь — 8 фото</li>
+                        <li class="icon-arr-check">Аренда фотостудии — Бесплатно</li>
+                        <li class="icon-arr-check">Любой образ</li>
+                    </ul>
+                </div>
+                <div class="card__stand-footer card-footer">
+                    <h4 class="card-footer__title">Дополнительные услуги</h4>
+                    <div class="card-footer__services">
+                        <p>Помощь в позировании</p>
+                        <p>Визажист + 2000 ₽</p>
+                        <p>Дополнительная ретушь<br>фото — 1 шт. / 250 ₽</p>
+                    </div>
+                </div>
+                <button class="card__btn btn">Забронировать</button>
+            </div>
+            <div class="card__max">
+                <div class="card__max-header card-header">
+                    <p>MAXI</p>
+                    <h4>N ₽</h4>
+                    <span>/ Максимальное количество локаций</span>
+                </div>
+                <div class="card__max-main card-main">
+                    <ul>
+                        <li class="icon-arr-check">Длительность — 4 часа</li>
+                        <li class="icon-arr-check">Исходники — До 500 штук</li>
+                        <li class="icon-arr-check">Ретушь — 50 фото</li>
+                        <li class="icon-arr-check">Аренда фотостудии — Бесплатно</li>
+                        <li class="icon-arr-check">Визажист — Make-Up, Укладка</li>
+                        <li class="icon-arr-check">Предварительный подбор образов — До 8 образов</li>
+                    </ul>
+                </div>
+                <div class="card__max-footer card-footer">
+                    <h4 class="card-footer__title">Дополнительные услуги</h4>
+                    <div class="card-footer__services">
+                        <p>Дополнительная ретушь<br>фото — 1 шт. / 250 ₽</p>
+                    </div>
+                </div>
+                <button class="card__btn btn">Забронировать</button>
+            </div>
         </div>
     </section>
     <script src="js/main.js"></script>
